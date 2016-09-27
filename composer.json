@@ -1,0 +1,23 @@
+{
+    "name": "doobrie/sitemap",
+    "description": "A lightweight XML sitemap generator",
+    "license": "MIT",
+    "keywords": [
+        "sitemap"
+    ],
+    "authors": [ 
+        { 
+            "name": "David Salter",
+            "email": "david.salter@outlook.com"
+        }
+    ],
+    "require" : {},
+    "require-dev" : {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Doobrie\\Sitemap\\" : "src"
+        }
+    }
+}
